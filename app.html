@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/menu.css">
+    <link rel="stylesheet" href="assets/index.CSS">
+    <link rel="stylesheet" href="assets/app.css">
+   
+    <link rel="stylesheet" href="assets/content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e85267642f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="index.html"><li>Home</li></a>
+        <a href="app.html"><li>App</li></a>
+        <a href="about.html"><li>Info</li></a>
+        <a href="about-me.html"><li>About me & Contact</li></a>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="row height">
+            <div class="col d-flex justify-content-center height">
+                <img src="assets/cover.png" alt="logo" id="head" class="mx-auto d-block center-block img-responsive">
+            </div>
+        </div>
+
+        <div class="row sq-row d-flex justify-content-center">
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Student's resources</p>
+                        <a href="#slide-1">1</a>
+                        <a href="#slide-2">2</a>
+                        <a href="#slide-3">3</a>
+                        <a href="#slide-4">4</a>
+                        <a href="#slide-5">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-1">
+                            <div class="content">
+
+                                <h3>Active Minds</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.activeminds.org/"> https://www.activeminds.org/</a>
+                                </h4>
+                                <p>Active Minds is the nation’s premier nonprofit organization supporting mental health
+                                    awareness and education for young adults</p>
+                            </div>
+                        </div>
+                        <div id="slide-2">
+                            <div class="content">
+
+                                <h3>American College Health Association (ACHA)</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.acha.org/">https://www.acha.org/</a></h4>
+                                <p>Serve as the principal leadership organization for advancing the health of college
+                                    students and campus communities through advocacy, education, and research.</p>
+                            </div>
+                        </div>
+                        <div id="slide-3">
+                            <div class="content">
+
+                                <h3>Campus Mind Works</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://campusmindworks.org/">https://campusmindworks.org/</a>
+                                </h4>
+                                <p>The Campus Mind Works website is designed to simplify access to the wide variety of
+                                    mental health and academic support resources, and provide help students manage
+                                    college life.</p>
+                            </div>
+                        </div>
+                        <div id="slide-4">
+                            <div class="content">
+
+                                <h3>UCI Student Wellness & Health Promotion</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://studentwellness.uci.edu/">
+                                        https://studentwellness.uci.edu/</a></h4>
+                                <p>We strive to be a leader in collegiate health promotion by focusing on the unique and
+                                    relevant health needs and concerns of UCI students to support their academic
+                                    success.</p>
+                            </div>
+                        </div>
+                        <div id="slide-5">
+                            <div class="content">
+
+                                <h3>American Academy of Child & Adolescent Psychiatry</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.aacap.org//">https://www.aacap.org//</a></h4>
+                                <p>AACAP's Resource Centers empower consumers through patient education. Each AACAP
+                                    Resource Center contains consumer friendly definitions, answers to frequently asked
+                                    questions, a definition of clinical resources, expert interviews, abstracts from the
+                                    JAACAP, and Scientific Proceedings and Facts for Families relevant to each disorder.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>BIPOC</p>
+                        <a href="#slide-6">1</a>
+                        <a href="#slide-7">2</a>
+                        <a href="#slide-8">3</a>
+                        <a href="#slide-9">4</a>
+                        <a href="#slide-10">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-6">
+                            <div class="content">
+
+                                <h3>Black mental health Alliance</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://blackmentalhealth.com/">
+                                        https://blackmentalhealth.com/</a></h4>
+                                <p>Develop, promote and sponsor trusted culturally-relevant educational forums,
+                                    trainings and referral services that support the health and well-being of Black
+                                    people and their communities.</p>
+                            </div>
+                        </div>
+                        <div id="slide-7">
+                            <div class="content">
+
+                                <h3>The BIPOC Project</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.thebipocproject.org/">https://www.thebipocproject.org/</a>
+                                </h4>
+                                <p>The BIPOC Project aims to build authentic and lasting solidarity among Black,
+                                    Indigenous and People of Color (BIPOC), in order to undo Native invisibility,
+                                    anti-Blackness, dismantle white supremacy and advance racial justice. </p>
+                            </div>
+                        </div>
+                        <div id="slide-8">
+                            <div class="content">
+
+                                <h3>BEAM: Black Emotional and Mental Health Collective</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.beam.community/">https://www.beam.community/</a></h4>
+                                <p>Our mission is to remove the barriers that Black people experience getting access to
+                                    or staying connected with emotional health care and healing. We do this through
+                                    education, training, advocacy and the creative arts. </p>
+                            </div>
+                        </div>
+                        <div id="slide-9">
+                            <div class="content">
+
+                                <h3>Therapy for Black Men</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://therapyforblackmen.org/">https://therapyforblackmen.org/</a></h4>
+                                <p>At TherapyforBlackMen.org, we want to break the stigma that asking for help is a sign
+                                    of weakness.</p>
+                            </div>
+                        </div>
+                        <div id="slide-10">
+                            <div class="content">
+
+                                <h3>Lorem Ipsum</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://therapyforblackgirls.com/">https://therapyforblackgirls.com/</a>
+                                </h4>
+                                <p>So often the stigma surrounding mental health issues and therapy prevents Black women
+                                    from taking the step of seeing a therapist. This space was developed to present
+                                    mental health topics in a way that feels more accessible and relevant.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Men's resources</p>
+                        <a href="#slide-11">1</a>
+                        <a href="#slide-12">2</a>
+                        <a href="#slide-13">3</a>
+                        <a href="#slide-14">4</a>
+                        <a href="#slide-15">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-11">
+                            <div class="content">
+
+                                <h3>Helpguide</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.helpguide.org/articles/abuse/help-for-men-who-are-being-abused.htm">https://www.helpguide.org/articles/abuse/help-for-men-who-are-being-abused.htm</a>
+                                </h4>
+                                <p>Domestic abuse against men can take the form of physical violence, emotional, verbal,
+                                    or sexual abuse. Whatever your circumstances, though, you can find help and break
+                                    free from an abusive relationship.</p>
+                            </div>
+                        </div>
+                        <div id="slide-12">
+                            <div class="content">
+
+                                <h3>Mankind Initiative</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.mankind.org.uk/">https://www.mankind.org.uk/</a></h4>
+                                <p>We provide an information, support and signposting service to men suffering from
+                                    domestic abuse from their current or former wife, partner (including same-sex
+                                    partner) or husband.</p>
+                            </div>
+                        </div>
+                        <div id="slide-13">
+                            <div class="content">
+
+                                <h3>Men’s Aid Ireland</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.mensaid.ie/">https://www.mensaid.ie/</a></h4>
+                                <p>Men’s Aid Ireland is the only dedicated national service supporting men and their
+                                    families experiencing Domestic Violence including coercive control in Ireland. Our
+                                    professional and qualified support team have years of experience in supporting men
+                                    and families experiencing domestic abuse.</p>
+                            </div>
+                        </div>
+                        <div id="slide-14">
+                            <div class="content">
+
+                                <h3>Gay Men's Domestic Violence Project</h3>
+                                <hr>
+
+                                <h4>website: <a href="http://gmdvp.org/gmdvp/">http://gmdvp.org/gmdvp/</a></h4>
+                                <p>Gay Men’s Domestic Violence Project provides crisis intervention, support and
+                                    resources for victims and survivors of domestic abuse.</p>
+                            </div>
+                        </div>
+                        <div id="slide-15">
+                            <div class="content">
+
+                                <h3>One in Three</h3>
+                                <hr>
+
+                                <h4>website: <a href="http://www.oneinthree.com.au/">http://www.oneinthree.com.au/</a>
+                                </h4>
+                                <p>One in Three is a diverse group of male and female professionals – academics,
+                                    researchers, social workers, psychologists, counsellors, lawyers, health promotion
+                                    workers, trainers and survivor/advocates. The Campaign aims to raise public
+                                    awareness of the existence and needs of male victims of family violence and abuse;
+                                    to work with government and non-government services alike to provide assistance to
+                                    everyone affected by family violence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row sq-row d-flex justify-content-center">
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Women's resources</p>
+                        <a href="#slide-16">1</a>
+                        <a href="#slide-17">2</a>
+                        <a href="#slide-18">3</a>
+                        <a href="#slide-19">4</a>
+                        <a href="#slide-20">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-16">
+                            <div class="content">
+
+                                <h3>Well Seek</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://wellseek.io/seekher">https://wellseek.io/seekher</a></h4>
+                                <p>Through advocacy campaigns and collaborative training programs in women's mental
+                                    health, we're uplifting the voices that are powering a healthier, happier world.</p>
+                            </div>
+                        </div>
+                        <div id="slide-17">
+                            <div class="content">
+
+                                <h3>International Association for Women's Mental Health</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://iawmh.org">https://iawmh.org</a></h4>
+                                <p>Established in 2001 to improve the mental health of women throughout the world, the
+                                    International Association for Women’s Mental Health is a Not for Profit,
+                                    Non-Governmental Organization in the United States of America.</p>
+                            </div>
+                        </div>
+                        <div id="slide-18">
+                            <div class="content">
+
+                                <h3>Office on Women's Health</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.womenshealth.gov/mental-health">https://www.womenshealth.gov/mental-health</a>
+                                </h4>
+                                <p>The Office on Women's Health achieves its mission through a wide range of programs
+                                    and activities. The Office also leads several groups and committees to coordinate
+                                    efforts for women's health within the U.S. Department of Health and Human Services
+                                    (HHS), as well as with other federal agencies.</p>
+                            </div>
+                        </div>
+                        <div id="slide-19">
+                            <div class="content">
+
+                                <h3>Black Women's Health Imperative </h3>
+                                <hr>
+
+                                <h4>website: <a href="https://bwhi.org">https://bwhi.org</a></h4>
+                                <p>Since 1983, we have been the only
+                                    national organization dedicated
+                                    solely to improving the health and
+                                    wellness of our nation’s 21 million
+                                    Black women and girls – physically,
+                                    emotionally and financially.</p>
+                            </div>
+                        </div>
+                        <div id="slide-20">
+                            <div class="content">
+
+                                <h3>Sad Girls Club</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://sadgirlsclub.org">https://sadgirlsclub.org</a></h4>
+                                <p>Sad Girls Club is a non profit 501(c)(3) organization founded to create community and
+                                    diminish stigma around mental health. We strive to support women of color and the
+                                    millennial & GenZ population.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Support Groups</p>
+                        <a href="#slide-21">1</a>
+                        <a href="#slide-22">2</a>
+                        <a href="#slide-23">3</a>
+                        <a href="#slide-24">4</a>
+                        <a href="#slide-25">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-21">
+                            <div class="content">
+
+                                <h3>ADAA Online Support Group</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://adaa.org/adaa-online-support-group">https://adaa.org/adaa-online-support-group</a>
+                                </h4>
+                                <p>ADAA’s English language anonymous peer-to-peer online anxiety and depression support
+                                    group and ADAA's Spanish-language online support group are free, friendly, safe and
+                                    supportive places for individuals and their families to share information and
+                                    experiences.</p>
+                            </div>
+                        </div>
+                        <div id="slide-22">
+                            <div class="content">
+
+                                <h3>Turn2Me</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://turn2me.ie/landing/peer-support/young-people">https://turn2me.ie/landing/peer-support/young-people</a>
+                                </h4>
+                                <p>Share your thoughts experiences and connect your peers in a safe, moderated peer
+                                    community.</p>
+                            </div>
+                        </div>
+                        <div id="slide-23">
+                            <div class="content">
+
+                                <h3>7Cups</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.7cups.com/">https://www.7cups.com/</a></h4>
+                                <p>Need someone to talk to?
+                                    Welcome to 7 Cups
+                                    7 Cups connects you to caring listeners for free emotional support</p>
+                            </div>
+                        </div>
+                        <div id="slide-24">
+                            <div class="content">
+
+                                <h3>DBSA Online Support Group</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.dbsalliance.org/support/chapters-and-support-groups/online-support-groups/">https://www.dbsalliance.org/support/chapters-and-support-groups/online-support-groups/</a>
+                                </h4>
+                                <p>DBSA online support groups give people living with depression and bipolar disorder a
+                                    safe, welcoming place to share experiences, discuss coping skills, and offer each
+                                    other hope.</p>
+                            </div>
+                        </div>
+                        <div id="slide-25">
+                            <div class="content">
+
+                                <h3>The Tribe</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="Peer-to-peer support group for individuals living with the daily challenge of depression or bipolar disorder.">Peer-to-peer
+                                        support group for individuals living with the daily challenge of depression or
+                                        bipolar disorder.</a></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Blogs</p>
+                        <a href="#slide-26">1</a>
+                        <a href="#slide-27">2</a>
+                        <a href="#slide-28">3</a>
+                        <a href="#slide-29">4</a>
+                        <a href="#slide-30">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-26">
+                            <div class="content">
+
+                                <h3>Therese Borchard</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://thereseborchard.com/">https://thereseborchard.com/</a>
+                                </h4>
+                                <p>Therese Borchard is Contributing Editor at HealthCentral and Associate Editor at
+                                    PsychCentral. She is the founder of the online depression communities Project Hope &
+                                    Beyond and Group Beyond Blue.</p>
+                            </div>
+                        </div>
+                        <div id="slide-27">
+                            <div class="content">
+
+                                <h3>Thought Catalogue</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://thoughtcatalog.com/kelly-bishop/">https://thoughtcatalog.com/kelly-bishop/</a>
+                                </h4>
+                                <p>Kelly Bishop is an avid reader and writer who hopes to one day work with these
+                                    passions full-time. For now, she blogs for websites like Thought Catalog, Huffington
+                                    Post, Elite Daily, and Talk Space.</p>
+                            </div>
+                        </div>
+                        <div id="slide-28">
+                            <div class="content">
+
+                                <h3>Bipolar Blog</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://natashatracy.com/topic/bipolar-blog/">https://natashatracy.com/topic/bipolar-blog/</a>
+                                </h4>
+                                <p>Natasha Tracy is an award-winning writer, speaker and social media consultant from
+                                    the Pacific Northwest. She works to bring high-quality, insightful and trusted
+                                    information on bipolar disorder and related illnesses to the public while engaging
+                                    with the mental health community.</p>
+                            </div>
+                        </div>
+                        <div id="slide-29">
+                            <div class="content">
+
+                                <h3>The Mighty: Mental Health</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://themighty.com/topic/mental-health/">https://themighty.com/topic/mental-health/</a>
+                                </h4>
+                                <p>Our community talks about mental health with compassion and without judgment. </p>
+                            </div>
+                        </div>
+                        <div id="slide-30">
+                            <div class="content">
+
+                                <h3>A Splintered Mind</h3>
+                                <hr>
+
+                                <h4>website: <a href="http://douglascootey.com/">http://douglascootey.com/</a></h4>
+                                <p>My original RSS URL is sixteen years old, back from when I called this blog THE
+                                    Splintered Mind, long before I discovered that early blog indexers alphabetized
+                                    their listings without ignoring determiners like "a" or "the". So A Splintered Mind
+                                    was born, and suddenly I was at the top of the lists. Yep, I was sneaky. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row sq-row d-flex justify-content-center">
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Books</p>
+                        <a href="#slide-31">1</a>
+                        <a href="#slide-32">2</a>
+                        <a href="#slide-33">3</a>
+                        <a href="#slide-34">4</a>
+                        <a href="#slide-55">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-31">
+                            <div class="content">
+
+                                <h3>Mental Health: A Person-Centered Approach</h3>
+                                <hr>
+
+                                <h4>Edited by Nicholas Protcter and others</h4>
+                                <p>Mental Health: a person-centred approach aligns leading mental health research with
+                                    the human connections that can and should be made in mental health care. It seeks to
+                                    deepen readers' understanding of themselves, the work they do, and how this
+                                    intersects with the lives and crises of people with mental illness.</p>
+                            </div>
+                        </div>
+                        <div id="slide-32">
+                            <div class="content">
+
+                                <h3>Challenger Deep</h3>
+                                <hr>
+
+                                <h4>Neal Shusterman</h4>
+                                <p>A story about a teen with schizophrenia.</p>
+                            </div>
+                        </div>
+                        <div id="slide-33">
+                            <div class="content">
+
+                                <h3>Looking After Your Mental Health</h3>
+                                <hr>
+
+                                <h4>Alice James and Louie Stowell</h4>
+                                <p>A guide to looking after your mental health. Includes lots of advice!</p>
+                            </div>
+                        </div>
+                        <div id="slide-34">
+                            <div class="content">
+
+                                <h3>Are U Ok? A Guide to Caring for Your Mental Health</h3>
+                                <hr>
+
+                                <h4>Kati Morton</h4>
+                                <p>Kati Morton answers the most commonly asked questions about mental health, including
+                                    when to get help and where to find it</p>
+                            </div>
+                        </div>
+                        <div id="slide-35">
+                            <div class="content">
+
+                                <h3>Lost Connections: Uncovering the Real Causes of Depression – and the Unexpected
+                                    Solutions</h3>
+                                <hr>
+
+                                <h4>A radical new way of thinking about depression and anxiety.</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Hotlines</p>
+                        <a href="#slide-36">1</a>
+                        <a href="#slide-37">2</a>
+                        <a href="#slide-38">3</a>
+                        <a href="#slide-39">4</a>
+                        <a href="#slide-40">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-36">
+                            <div class="content">
+
+                                <h3>Crisis Counselor </h3>
+                                <hr>
+
+                                <h4>type: Therapy</h4>
+                                <p>Text HOME to 741741 to connect with a Crisis Counselor.</p>
+                            </div>
+                        </div>
+                        <div id="slide-37">
+                            <div class="content">
+
+                                <h3>Crisi Text Line</h3>
+                                <hr>
+
+                                <h4>type: Therapy</h4>
+                                <p>CONNECT to 741741</p>
+                            </div>
+                        </div>
+                        <div id="slide-38">
+                            <div class="content">
+
+                                <h3>National Alliance on Mental Illness (NAMI)</h3>
+                                <hr>
+
+                                <h4>type: Mental Health info</h4>
+                                <p>1-800-950-NAMI (6264)</p>
+                            </div>
+                        </div>
+                        <div id="slide-39">
+                            <div class="content">
+
+                                <h3>Substance Abuse and Mental Health Services Administration (SAMHSA)</h3>
+                                <hr>
+
+                                <h4>type: Substance Abuse</h4>
+                                <p>800-662-HELP (4357)</p>
+                            </div>
+                        </div>
+                        <div id="slide-40">
+                            <div class="content">
+
+                                <h3>Kids Help Phone</h3>
+                                <hr>
+
+                                <h4>type: Crisis Text Line</h4>
+                                <p>1-800-668-6868</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Videos & Movies</p>
+                        <a href="#slide-41">1</a>
+                        <a href="#slide-42">2</a>
+                        <a href="#slide-43">3</a>
+                        <a href="#slide-44">4</a>
+                        <a href="#slide-45">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-41">
+                            <div class="content">
+
+                                <h3>Kingdom of Us (2017)</h3>
+                                <hr>
+
+                                <h4>Netflix</h4>
+                                <p>The story of a family's grief and struggles after the suicide of the father</p>
+                            </div>
+                        </div>
+                        <div id="slide-42">
+                            <div class="content">
+
+                                <h3>The Stranger on a Bridge (2015)</h3>
+                                <hr>
+
+                                <h4>link: <a href="https://youtu.be/VrcBUr974tM">https://youtu.be/VrcBUr974tM</a></h4>
+                                <p>The story of Jonny Benjamin, and his struggles with schizophrenia and his attempt to
+                                    take his own life</p>
+                            </div>
+                        </div>
+                        <div id="slide-43">
+                            <div class="content">
+
+                                <h3>Head Talks</h3>
+                                <hr>
+
+                                <h4>link: <a
+                                        href="https://www.youtube.com/channel/UCYqGd433hQuCqH159mivIEg">https://www.youtube.com/channel/UCYqGd433hQuCqH159mivIEg</a>
+                                </h4>
+                                <p>Tips, tricks, education and support on mental health</p>
+                            </div>
+                        </div>
+                        <div id="slide-44">
+                            <div class="content">
+
+                                <h3>Thin</h3>
+                                <hr>
+
+                                <h4>link: <a href="https://youtu.be/U-N2Cv52gB8">https://youtu.be/U-N2Cv52gB8</a>,
+                                    stream on Amazon</h4>
+                                <p>This documentary follows four young women dealing with eating disorders</p>
+                            </div>
+                        </div>
+                        <div id="slide-45">
+                            <div class="content">
+
+                                <h3>ADAA Webinars</h3>
+                                <hr>
+
+                                <h4>link: <a
+                                        href="https://www.youtube.com/channel/UC_wvKpDd7xmm4ngj0mruK_A">https://www.youtube.com/channel/UC_wvKpDd7xmm4ngj0mruK_A</a>
+                                </h4>
+                                <p>The Anxiety and Depression Association of America (ADAA) is the leader in education,
+                                    training, and research for anxiety, depression, and stress-related disorders.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row sq-row d-flex justify-content-center">
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>International Resources</p>
+                        <a href="#slide-46">1</a>
+                        <a href="#slide-47">2</a>
+                        <a href="#slide-48">3</a>
+                        <a href="#slide-49">4</a>
+                        <a href="#slide-50">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-46">
+                            <div class="content">
+
+                                <h3>PatientsEngage</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.patientsengage.com/">https://www.patientsengage.com/</a></h4>
+                                <p>PatientsEngage, an enterprise with social impact, is a patient/caregiver focused
+                                    healthcare platform for supporting the management of chronic diseases.</p>
+                            </div>
+                        </div>
+                        <div id="slide-47">
+                            <div class="content">
+
+                                <h3>Campaign Against Living Miserably (CALM)</h3>
+                                <hr>
+
+                                <h4>website: <a href="https://www.thecalmzone.net/">https://www.thecalmzone.net/</a>
+                                </h4>
+                                <p>The Campaign Against Living Miserably (CALM) is leading a movement against suicide.
+                                    Every week 125 people in the UK take their own lives. And 75% of all UK suicides are
+                                    male.</p>
+                            </div>
+                        </div>
+                        <div id="slide-48">
+                            <div class="content">
+
+                                <h3>Anxiety Panic Support</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://anxietypanicsupport.com/">https://anxietypanicsupport.com/</a>
+                                </h4>
+                                <p>Anxietypanicsupport.com is a peer-to-peer support group. Our main focus at
+                                    anxietypanicsupport.com is to offer those who suffer with anxiety disorders a
+                                    comfortable atmosphere to talk and share with fellow sufferers. In our chatroom
+                                    (which is open 24 hours a day, seven days a week), you can talk and share with
+                                    others who know what you are experiencing. You are not alone; you will soon discover
+                                    that countless others around the world face and cope with anxiety disorders.</p>
+                            </div>
+                        </div>
+                        <div id="slide-49">
+                            <div class="content">
+
+                                <h3>European Federation of Associations of Families of People with Mental Illness</h3>
+                                <hr>
+
+                                <h4>website: <a href="http://eufami.org/">http://eufami.org/</a></h4>
+                                <p>EUFAMI’s mission is to represent all family members of persons affected by severe
+                                    mental ill health at European level so that their rights and interests are
+                                    recognised and protected.</p>
+                            </div>
+                        </div>
+                        <div id="slide-50">
+                            <div class="content">
+
+                                <h3>WHO Europe</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.euro.who.int/en/health-topics/noncommunicable-diseases/mental-health">https://www.euro.who.int/en/health-topics/noncommunicable-diseases/mental-health</a>
+                                </h4>
+                                <p>Mental health is everyone’s business; it affects the lives of people living with
+                                    mental problems, their careers, and the productivity of society as a whole. The
+                                    mental health programme at WHO/Europe works with Member States and other partners to
+                                    develop and implement national mental health policies and plans that reflect the WHO
+                                    vision of “no health without mental health”.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Social Media Pages</p>
+                        <a href="#slide-51">1</a>
+                        <a href="#slide-52">2</a>
+                        <a href="#slide-53">3</a>
+                        <a href="#slide-54">4</a>
+                        <a href="#slide-55">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-51">
+                            <div class="content">
+
+                                <h3>@the__paris__project</h3>
+                                <hr>
+
+                                <h4>Instagram</h4>
+                                <p>highlights injustice in the mental health sector and amplifies underrepresented
+                                    groups in mental health, chitchats, common misconceptions about mental health
+                                    disorders</p>
+                            </div>
+                        </div>
+                        <div id="slide-52">
+                            <div class="content">
+
+                                <h3>@purplehydrangeaproject</h3>
+                                <hr>
+
+                                <h4>Instagram</h4>
+                                <p>promotes mental health awareness and scientific facts on mental disorders with common
+                                    misconceptions</p>
+                            </div>
+                        </div>
+                        <div id="slide-53">
+                            <div class="content">
+
+                                <h3>@magnifywellnesshq </h3>
+                                <hr>
+
+                                <h4>Instagram</h4>
+                                <p>mental health chitchats, psychology facts, deep talks, open DM's to talk about mental
+                                    health, and mental health awareness campaigns.</p>
+                            </div>
+                        </div>
+                        <div id="slide-54">
+                            <div class="content">
+
+                                <h3>@cura.project</h3>
+                                <hr>
+
+                                <h4>Instagram</h4>
+                                <p>emphasizes the importance of education and its relation to mental health </p>
+                            </div>
+                        </div>
+                        <div id="slide-55">
+                            <div class="content">
+
+                                <h3>@mentalhealthio</h3>
+                                <hr>
+
+                                <h4>Instagram</h4>
+                                <p>brings light to mental health diseases through research and personal stories</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Informational Articles</p>
+                        <a href="#slide-56">1</a>
+                        <a href="#slide-57">2</a>
+                        <a href="#slide-58">3</a>
+                        <a href="#slide-59">4</a>
+                        <a href="#slide-60">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-56">
+                            <div class="content">
+
+                                <h3>What is Mental Illness?</h3>
+                                <hr>
+
+                                <h4>link: <a
+                                        href="https://www.psychiatry.org/patients-families/what-is-mental-illness">https://www.psychiatry.org/patients-families/what-is-mental-illness</a>
+                                </h4>
+                                <p>American Psychiatric Association</p>
+                            </div>
+                        </div>
+                        <div id="slide-57">
+                            <div class="content">
+
+                                <h3>Three Things To Know for BIPOC Mental Health Awareness Month</h3>
+                                <hr>
+
+                                <h4>link <a
+                                        href="https://www.yahoo.com/lifestyle/three-things-know-bipoc-mental-164728835.html">https://www.yahoo.com/lifestyle/three-things-know-bipoc-mental-164728835.html</a>
+                                </h4>
+                                <p>Yahoo! Life</p>
+                            </div>
+                        </div>
+                        <div id="slide-58">
+                            <div class="content">
+
+                                <h3>What causes depression?</h3>
+                                <hr>
+
+                                <h4>link: <a
+                                        href="https://www.health.harvard.edu/mind-and-mood/what-causes-depression">https://www.health.harvard.edu/mind-and-mood/what-causes-depression</a>
+                                </h4>
+                                <p>Harvard Health</p>
+                            </div>
+                        </div>
+                        <div id="slide-59">
+                            <div class="content">
+
+                                <h3>Uncovering the Truth of Racial Trauma</h3>
+                                <hr>
+
+                                <h4>link: <a
+                                        href="https://www.apa.org/pubs/highlights/spotlight/issue-128">https://www.apa.org/pubs/highlights/spotlight/issue-128</a>
+                                </h4>
+                                <p>American Psychological Association</p>
+                            </div>
+                        </div>
+                        <div id="slide-60">
+                            <div class="content">
+
+                                <h3>Anxiety Disorders and Anxiety Attacks</h3>
+                                <hr>
+
+                                <h4>website: <a
+                                        href="https://www.helpguide.org/articles/anxiety/anxiety-disorders-and-anxiety-attacks.htm">https://www.helpguide.org/articles/anxiety/anxiety-disorders-and-anxiety-attacks.htm</a>
+                                </h4>
+                                <p>HelpGuide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row sq-row d-flex justify-content-center">
+            <div class="col-lg square d-flex justify-content-center height">
+                <div class="slider">
+                    <div class="bl">
+                        <p>Apps</p>
+                        <a href="#slide-61">1</a>
+                        <a href="#slide-62">2</a>
+                        <a href="#slide-63">3</a>
+                        <a href="#slide-64">4</a>
+                        <a href="#slide-65">5</a>
+
+                    </div>
+                    <div class="slides">
+                        <div id="slide-61">
+                            <div class="content">
+
+                                <h3>Magnify Wellenss</h3>
+                                <hr>
+
+                                <h4><a href="https://apps.apple.com/in/app/magnify-wellness/id1526188573">App Store</a>,
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=org.reactjs.native.example.Magnify&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Google
+                                        Play</a></h4>
+                                <p>Magnify’s mission is to provide high-quality resources through the power of
+                                    technology to ensure everyone gets equal access to mental wellness support. Through
+                                    a therapetic chatbot, gratitude journal, mood check in, video game, and way more,
+                                    this app's completely free mental health resources aspire to reach everyone who
+                                    needs them.</p>
+                            </div>
+                        </div>
+                        <div id="slide-62">
+                            <div class="content">
+
+                                <h3>Ayana App</h3>
+                                <hr>
+
+                                <h4><a href=""></a> <a href="https://apps.apple.com/us/app/ayana/id1489697292">App
+                                        Store</a></h4>
+                                <p>The Ayana app, founded by Eric Coly, uses detailed questionnaires to connect members
+                                    of marginalized communities with compatible licensed therapists based on their
+                                    background, needs and identities.</p>
+                            </div>
+                        </div>
+                        <div id="slide-63">
+                            <div class="content">
+
+                                <h3>Shine App</h3>
+                                <hr>
+
+                                <h4> <a href="https://apps.apple.com/US/app/id1293721589?mt=8">App Store</a> <a
+                                        href="https://play.google.com/store/apps/details?id=com.shinetext.shine&hl=en_US">Google
+                                        Play</a></h4>
+                                <p>The Black-owned app was created in 2016, but its offerings—including more than 600
+                                    guided meditations, morning inspiration texts, customizable mental health tool kits
+                                    and community forums—are in higher demand in light of two ongoing pandemics.</p>
+                            </div>
+                        </div>
+                        <div id="slide-64">
+                            <div class="content">
+
+                                <h3>Minds of the Culture</h3>
+                                <hr>
+
+                                <h4><a href="https://play.google.com/store/apps/details?id=com.he6ecb72aef1&hl=en_US">Google
+                                        Play</a></h4>
+                                <p>"The Safe Place" Is a Minority Mental Health App geared towards the Black Community.
+                                    African Americans are 20% more likely to experience serious mental health problems
+                                    than the rest of the general population. However, many black people still do not
+                                    wish to seek professional help for their mental illnesses.</p>
+                            </div>
+                        </div>
+                        <div id="slide-65">
+                            <div class="content">
+
+                                <h3>Mindshift CBT - Anxiety Canada</h3>
+                                <hr>
+
+                                <h4>
+                                    <a href="https://apps.apple.com/ca/app/mindshift/id634684825">App Store</a>, <a href="https://play.google.com/store/apps/details?id=com.bstro.MindShift&hl=en">Google Play</a>
+                                </h4>
+                                <p>Break free from anxiety and stress using this free evidence-based anxiety management app. MindShift CBT uses scientifically proven strategies based on Cognitive Behavioral Therapy (CBT).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+<br><br><br>
+        <!-- script for preventing page to shift.  -->
+        <script>
+            $('a').click(function (e) {
+                var x = window.pageXOffset,
+                    y = window.pageYOffset;
+                $(window).one('scroll', function () {
+                    window.scrollTo(x, y);
+                })
+            });
+        </script>
+    </div>
+    <footer class="text-center text-white" style="background-color: #ffffff2f;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.facebook.com/andrei.munteanu.04" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a target="_blank" class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://twitter.com/MunteanuAndrew" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a target="_blank" class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://pcarioca.github.io/" role="button" data-mdb-ripple-color="dark"><i
+                        class="fas fa-globe-europe"></i></a>
+
+                <!-- Instagram -->
+                <a target="_blank" class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://pcarioca.github.io/" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a target="_blank" class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://www.linkedin.com/in/paul-andrei-munteanu-53a02b1b6/" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a target="_blank" class="btn btn-link btn-floating btn-lg text-white m-1"
+                    href="https://github.com/Pcarioca" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-white p-3" style="background-color: rgba(255, 255, 255, 0.2);">
+            This Website was created by <a href="https://pcarioca.hithub.io">Andrei Munteanu</a> for the <a href="https://helloo-hacks-2.devpost.com/"> Helloo hacks </a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>

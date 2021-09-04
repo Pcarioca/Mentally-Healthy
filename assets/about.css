@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    color:white;
+
+}
+.mini-header{
+    text-align: center;
+    color:white;
+    margin-top:5%;
+    text-decoration: solid underline;
+    
+}
+.bout{
+    margin-top:2%;
+    text-align: center;
+    color:white;
+    font-size: large;
+}
+.resources{
+    font-weight: 900;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: dotted underline;
+   
+
+}
+a:hover{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}

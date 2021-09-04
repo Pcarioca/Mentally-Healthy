@@ -1,0 +1,16 @@
+iframe{
+    width:90%;
+    height:90vh;
+    margin-left:10%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1300px){
+    iframe{
+        margin-left:0%;
+        margin-top:10vh;
+        margin-right:0%;
+        width:96vw;
+        height:80vh;
+    }
+}

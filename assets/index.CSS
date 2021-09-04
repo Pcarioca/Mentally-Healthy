@@ -1,0 +1,41 @@
+*{
+    font-family: 'Arimo', sans-serif;
+}
+body{
+    background: #F56B11;
+    overflow-anchor: none;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: dotted underline;
+    
+
+}
+a:hover{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+#free-top{
+    height:20vh;
+}
+#main-logo{
+    width:50vw;
+}
+#slogan{
+    color:white;
+    font-size: 30px;
+}
+#take{
+    color: #F56B11;
+}
+
+@media screen and (max-width:1000px) {
+    #free-top{
+        height:10vh;
+    }
+}
+@media screen and (max-width:600px) {
+    #main-logo{
+        width:80vw;
+    }
+}
