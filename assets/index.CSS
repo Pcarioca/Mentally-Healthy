@@ -5,6 +5,28 @@ body{
     background: #F56B11;
     overflow-anchor: none;
 }
+::-webkit-scrollbar {
+    width: 11px;
+    background:#F56B11
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff6a;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffffce;
+    
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
+  }
+  
 a{
     color: rgb(255, 255, 255);
     text-decoration: dotted underline;
