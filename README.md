@@ -1,3 +1,5 @@
+<h1>Mentally Healthy</h1>
+
 <h3>Inspiration</h3>
 <p>As a Mental Health and Web Development advocate, I think that having Mental Health support anytime and within reach is very important. That's why I created Mentally Healthy, a tool that you can use everywhere, any time and on any device to get support. Check it out!</p>
 <h3>What it does</h3>
